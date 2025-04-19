@@ -1,0 +1,58 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+}
+
+html,body{
+
+    background-color: var(--slate-300);
+  
+    height: 100%;
+    margin: 0;
+
+}
+
+
+.mi-div {
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 15px;
+    padding: 1rem;
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+    background-color: var(--white);    
+    color: var(--slate-900);
+    font-family: 'Outfit', sans-serif;  
+    font-size: 30px;
+}
+
+.cont{
+  display: grid; /* o display: grid; */
+  height: 100%;           /* usa toda la altura de la pantalla */
+  width: 100%;             /* asegura que también ocupe toda la anchura */
+
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+
+
+}
+
+strong{
+    color: var(--slate-900);
+}
+
+p{
+    height: auto;
+    font-size: 20px;
+    color: var(--slate-500);
+}
+
+.centro {
+    width: 200px;
+    height: 100px;
+
+  }
